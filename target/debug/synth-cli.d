@@ -1,0 +1,1 @@
+/home/neshie/projects/rust/nsynth/target/debug/synth-cli: /home/neshie/projects/rust/nsynth/synth-cli/src/main.rs /home/neshie/projects/rust/nsynth/synth-engine/src/lib.rs /home/neshie/projects/rust/nsynth/synth-engine/src/oscillator.rs /home/neshie/projects/rust/nsynth/synth-engine/src/voice.rs /home/neshie/projects/rust/nsynth/synth-engine/src/voice_manager.rs

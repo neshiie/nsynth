@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "synth-cli",
+    "synth-engine",
+    "synth-vst"
+]
+

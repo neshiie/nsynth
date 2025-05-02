@@ -1,0 +1,7 @@
+[package]
+name = "synth-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dasp = "0.11"

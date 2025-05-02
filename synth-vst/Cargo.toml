@@ -1,0 +1,9 @@
+[package]
+name = "synth-vst"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+audio-processor-traits = "1"
+synth-engine = { path = "../synth-engine" }
+
