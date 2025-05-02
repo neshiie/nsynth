@@ -82,7 +82,7 @@ fn midi_listen_thread(voices: Arc<Mutex<VoiceManager>>) {
 
     let in_ports = midi_in.ports();
     if in_ports.is_empty() {
-        eprintln!("❌ No MIDI input devices found.");
+        eprintln!("[X] No MIDI input devices found.");
         return;
     }
 
