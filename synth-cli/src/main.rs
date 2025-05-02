@@ -97,7 +97,7 @@ fn midi_listen_thread(voices: Arc<Mutex<VoiceManager>>) {
 
     if in_ports.len() <= 1 {
         eprintln!(
-            "❌ MIDI device #1 not available. Found only {} ports.",
+            "[X] MIDI device #1 not available. Found only {} ports.",
             in_ports.len()
         );
         return;
