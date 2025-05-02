@@ -13,7 +13,7 @@ fn main() -> anyhow::Result<()> {
     let host = cpal::default_host();
     let device = host
         .default_output_device()
-        .expect("❌ No output device available");
+        .expect("[X] No output device available");
 
     let supported_config = device.default_output_config()?;
     let mut config = supported_config.config();
